@@ -1,0 +1,20 @@
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222831;
+    color: #DDDDDD;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    object-fit: cover;
+    width: 2em;
+    margin-left: 1em;
+    padding: 1em 0 1em 0;
+    border-radius: 100%;
+}
