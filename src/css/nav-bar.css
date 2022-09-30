@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+body,
+html {
+    width: 100%;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #222831;
+    color: #DDDDDD;
+    font-size: 1.3em;
+}
+
+#nav-links h3 {
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+    color: #DDDDDD;
+    display: inline;
+}
+
+#nav-links h3:hover {
+    cursor: pointer;
+    color: #F05454;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+#name {
+    margin: 0 1em 0 1em;
+}
